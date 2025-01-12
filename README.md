@@ -60,13 +60,13 @@ If you wish to use different executable you can pass the executable path in `LLa
 
 #### Stopping the Server
 
-```
+``` swift
 server.stopServer()
 ```
 
 #### Restarting the Server
 
-```
+``` swift
 try server.restartServer(with: config)
 ```
 
@@ -74,7 +74,7 @@ try server.restartServer(with: config)
 
 Unit tests are provided in the Tests directory. To run the tests, use the following command:
 
-```
+``` bash
 swift test
 ```
 
