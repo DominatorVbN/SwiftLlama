@@ -58,6 +58,8 @@ The SPM ships with pre-built server executable, from version b4458 - https://git
 
 If you wish to use different executable you can pass the executable path in `LLaMAConfig`.
 
+> Note: the pre built binary only works with non sandboxed macos app, if you wish to keep your app sandboxed you can do so by adding the server binary to your app as auxilary resource and then by proving path to your llama-server binary in LLaMAConfig.
+
 #### Stopping the Server
 
 ``` swift
