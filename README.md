@@ -78,6 +78,8 @@ Unit tests are provided in the Tests directory. To run the tests, use the follow
 swift test
 ```
 
+The repo also contains a small GGUF model for test picked from: https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/tree/main
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your changes.
 
